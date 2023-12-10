@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="aggregate customer data"
+    id="id-46416">
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-46325.xml#id-46325"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-46356.xml#id-46356"/>
+</archimate:FlowRelationship>

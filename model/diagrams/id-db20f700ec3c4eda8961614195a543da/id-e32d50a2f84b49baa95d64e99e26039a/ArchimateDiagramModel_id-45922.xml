@@ -1,0 +1,38 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Target Application Architecture"
+    id="id-45922">
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="id-45925"
+      font="1|arial|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|arial"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e1e1e1">
+    <bounds
+        x="53"
+        y="67"
+        width="187"
+        height="73"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_id-36161.xml#id-36161"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="id-45933"
+      font="1|arial|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|arial"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e1e1e1">
+    <bounds
+        x="53"
+        y="187"
+        width="187"
+        height="73"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_id-36009.xml#id-36009"/>
+  </children>
+</archimate:ArchimateDiagramModel>

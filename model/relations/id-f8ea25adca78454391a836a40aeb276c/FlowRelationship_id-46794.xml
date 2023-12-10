@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="claim payments due"
+    id="id-46794">
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-46687.xml#id-46687"/>
+  <target
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-46637.xml#id-46637"/>
+</archimate:FlowRelationship>

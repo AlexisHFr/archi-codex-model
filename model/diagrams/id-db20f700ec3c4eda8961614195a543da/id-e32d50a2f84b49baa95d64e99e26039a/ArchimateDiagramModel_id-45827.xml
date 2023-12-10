@@ -1,0 +1,22 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gap analysis Application Architecture"
+    id="id-45827">
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="id-45830"
+      font="1|arial|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|arial"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e1e1e1">
+    <bounds
+        x="153"
+        y="140"
+        width="193"
+        height="87"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_id-37421.xml#id-37421"/>
+  </children>
+</archimate:ArchimateDiagramModel>

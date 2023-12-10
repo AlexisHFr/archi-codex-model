@@ -1,0 +1,38 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Phase E: Opportunities &amp; Solutions"
+    id="id-46064">
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="id-46067"
+      font="1|arial|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|arial"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e1e1e1">
+    <bounds
+        x="140"
+        y="140"
+        width="120"
+        height="60"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_id-44372.xml#id-44372"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="id-46075"
+      font="1|arial|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|arial"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e1e1e1">
+    <bounds
+        x="140"
+        y="233"
+        width="127"
+        height="60"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_id-44638.xml#id-44638"/>
+  </children>
+</archimate:ArchimateDiagramModel>

@@ -1,0 +1,38 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Requirements Management"
+    id="id-45956">
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="id-45959"
+      font="1|arial|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|arial"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e1e1e1">
+    <bounds
+        x="100"
+        y="80"
+        width="127"
+        height="60"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_id-44756.xml#id-44756"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="id-48006"
+      font="1|arial|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|arial"
+      fontColor="#000000"
+      lineColor="#000000"
+      fillColor="#e1e1e1">
+    <bounds
+        x="107"
+        y="193"
+        width="120"
+        height="60"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_id-44268.xml#id-44268"/>
+  </children>
+</archimate:ArchimateDiagramModel>

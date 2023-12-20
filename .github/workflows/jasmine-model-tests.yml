@@ -27,7 +27,7 @@ jobs:
 
       - name: Run jArchi script that launch Jasmine tests
         id: archi
-        run: /opt/Archi/entrypoint.sh -application com.archimatetool.commandline.app  -nosplash --script.runScript "/archi/project/run-jasmine-model-tests.ajs" 
+        run: /opt/Archi/entrypoint.sh -application com.archimatetool.commandline.app --script.runScript "/archi/project/run-jasmine-specs.ajs" 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ARCHI_HTML_REPORT_ENABLED: "false"

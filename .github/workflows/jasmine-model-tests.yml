@@ -18,7 +18,7 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     container:
-      image:  ghcr.io/alexishfr/archimate-ci-image:5.2.0-dev
+      image:  ghcr.io/alexishfr/archimate-ci-image:5.2.0-test
     
     name: Run Jasmine Tests
     steps:

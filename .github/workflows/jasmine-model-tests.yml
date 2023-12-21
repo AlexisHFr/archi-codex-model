@@ -17,8 +17,12 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+    
     container:
       image:  ghcr.io/alexishfr/archimate-script-ci-image:5.2.0-dev
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     
     name: Run Jasmine Tests
     steps:

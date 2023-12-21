@@ -37,5 +37,6 @@ jobs:
           
       - name: Run jArchi script that launch Jasmine tests
         id: archi-jarchi
+        run: /opt/Archi/launcher.sh
         env:
           JASMINE: "true"

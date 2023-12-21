@@ -24,9 +24,17 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
-
+        id: archi-checkout
+        run: /opt/Archi/entrypoint.sh 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ARCHI_HTML_REPORT_ENABLED: "false"
+          ARCHI_JASPER_REPORT_ENABLED: "false"
+          ARCHI_CSV_REPORT_ENABLED: "false"
+          ARCHI_EXPORT_MODEL_ENABLED: "false"
+          
       - name: Run jArchi script that launch Jasmine tests
-        id: archi
+        id: archi-jarchih
         run: /opt/Archi/entrypoint.sh -application com.archimatetool.commandline.app --script.runScript "/archi/project/run-jasmine-specs.ajs" 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -18,7 +18,7 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     container:
-      image:  ghcr.io/alexishfr/archimate-ci-image:5.2.0-test
+      image:  ghcr.io/alexishfr/archimate-script-ci-image:5.2.0-dev
     
     name: Run Jasmine Tests
     steps:
@@ -36,11 +36,6 @@ jobs:
           ARCHI_EXPORT_MODEL_ENABLED: "false"
           
       - name: Run jArchi script that launch Jasmine tests
-        id: archi-jarchih
-        run: /opt/Archi/entrypoint.sh -application com.archimatetool.commandline.app --script.runScript "run-jasmine-specs.ajs" 
+        id: archi-jarchi
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ARCHI_HTML_REPORT_ENABLED: "false"
-          ARCHI_JASPER_REPORT_ENABLED: "false"
-          ARCHI_CSV_REPORT_ENABLED: "false"
-          ARCHI_EXPORT_MODEL_ENABLED: "false"
+          JASMINE: "true"

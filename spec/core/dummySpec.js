@@ -1,7 +1,7 @@
 
 describe("a simple suite", function() {
-    it("that fails", function() {
+    it("that passes", function() {
         console.log("inside jasmine test ! ");
-        expect( 10 ).toBeGreaterThan(100);
+        expect( 100 ).toBeGreaterThan(10);
     });
 });

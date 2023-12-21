@@ -15,6 +15,7 @@ on:
 jobs:
   jasmine_tests:
     permissions:
+      contents: write
       packages: read
     runs-on: ubuntu-latest
     

@@ -13,15 +13,16 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  archi_report:
+  jasmine_tests:
     permissions:
-      contents: write
+      packages: read
     runs-on: ubuntu-latest
     
     container:
       image:  ghcr.io/alexishfr/archimate-script-ci-image:5.2.0-dev
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      credentials:
+        username: ${{ github.Actor }}
+        password:  ${{ secrets.GITHUB_TOKEN }}
 
     
     name: Run Jasmine Tests

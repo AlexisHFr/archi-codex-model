@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
+
+      - name: Check out the model repo
         id: archi-checkout
         run: /opt/Archi/entrypoint.sh 
         env:
